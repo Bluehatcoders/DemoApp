@@ -17,7 +17,7 @@ const options = {
   webHook: {
     // Port to which you should bind is assigned to $PORT variable
     // See: https://devcenter.heroku.com/articles/dynos#local-environment-variables
-    port: process.env.PORT ||5000;
+    port: process.env.PORT ||5000
     // you do NOT need to set up certificates since Heroku provides
     // the SSL certs already (https://<app-name>.herokuapp.com)
     // Also no need to pass IP because on Heroku you need to bind to 0.0.0.0
